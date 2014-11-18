@@ -1,4 +1,73 @@
-h1
+@font-face
+{
+    font-family:"digital";
+    src:url("../fonts/digital.ttf");  
+}
+
+#header
 {
     text-align:center;
+    margin-top:40px;
+    margin-left:auto;
+    margin-bottom:20px;
+    margin-right:auto;
+}
+
+
+a.logo:link
+{
+    font-family:"digital";
+    font-size:50px;
+    text-decoration:none;
+    text-align:center;
+    color:#000000;
+    border:3px solid #000000;
+    padding:15px;
+    height:100px;
+    width:100px;
+    position:absolute;
+   
+}
+
+a.logo:visited
+{
+    font-family:"digital";
+    font-size:50px;
+    text-decoration:none;
+    color:#000000;
+    border:3px solid #000000;
+    padding:15px;
+    height:100px;
+    width:100px;
+    position:absolute;
+
+}
+
+a.logo:hover
+{
+    font-family:"digital";
+    font-size:50px;
+    text-decoration:none;
+    color:#ffffff;
+    border:3px solid #000000;
+    background-color:#000000;
+    padding:15px;
+    height:100px;
+    width:100px;
+    position:absolute;
+
+}
+
+a.logo:active
+{
+    font-family:"digital";
+    font-size:50px;
+    text-decoration:none;
+    color:#000000;
+    border:3px solid #000000;
+    padding:15px;
+    height:100px;
+    width:100px;
+    position:absolute;
+ 
 }
