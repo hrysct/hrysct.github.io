@@ -20,11 +20,10 @@ a.logo:link
     font-size:60px;
     text-decoration:none;
     text-align:center;
-    color:#000000;
+    color:#ffffff;
     border:5px solid #000000;
     padding:15px;
-   
-   
+    
 }
 
 a.logo:visited
@@ -36,7 +35,6 @@ a.logo:visited
     border:5px solid #000000;
     padding:15px;
    
-
 }
 
 a.logo:hover
@@ -46,8 +44,8 @@ a.logo:hover
     text-decoration:none;
     color:#ffffff;
     border:5px solid #000000;
-    background-color:#000000;
     padding:15px;
+    background-color:#000000;
    
 }
 60px
@@ -59,6 +57,5 @@ a.logo:active
     color:#000000;
     border:5px solid #000000;
     padding:15px;
-   
  
 }
