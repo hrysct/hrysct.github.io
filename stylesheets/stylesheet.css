@@ -4,6 +4,18 @@
     src:url("../fonts/glashou.ttf");  
 }
 
+@font-face
+{
+    font-family:"cicle";
+    src:url("../fonts/cicle.ttf");
+}
+
+@font-face
+{
+    font-family:"sofia";
+    src:url("../fonts/sofia.otf");
+}
+
 #header
 {
     position:relative;
