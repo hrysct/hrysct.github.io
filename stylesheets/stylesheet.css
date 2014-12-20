@@ -6,80 +6,41 @@
 
 @font-face
 {
-    font-family:"cicle";
-    src:url("../fonts/cicle.ttf");
+    font-family:"haymaker";
+    src:url("../fonts/haymaker.ttf");
 }
 
 @font-face
 {
-    font-family:"sofia";
-    src:url("../fonts/sofia.otf");
+    font-family:"sullivan";
+    src:url("../fonts/sullivan.otf");
+}
+
+@font-face
+{
+    font-family:"cicle";
+    src:url("../fonts/cicle.ttf");
 }
 
 #header
 {
-    position:relative;
-    text-align:center;
-    margin-top:auto;
-    margin-left:auto;
-    margin-bottom:auto;
-    margin-right:auto;
-}
-
-#header-image
-{
+    height:200px;
     width:100%;
-    height:auto;
-    position:absolute;
-    top:0;
-    left:0;
 }
 
-#header-logo
+h1
 {
-    position:absolute;
+    font-family:"haymaker";
+    font-size:50px;
+    margin-left:100px;
 }
 
-
-a.header-logo:link
+p
 {
-    font-family:"glashou";
-    font-size:60px;
-    text-decoration:none;
-    text-align:center;
-    color:#ffffff;
-    border:5px solid #000000;
-    padding:15px;
-}
-
-a.header-logo:visited
-{
-    font-family:"glashou";
-    font-size:60px;
-    text-decoration:none;
-    color:#000000;
-    border:5px solid #000000;
-    padding:15px;
-}
-
-a.header-logo:hover
-{
-    font-family:"glashou";
-    font-size:60px;
-    text-decoration:none;
-    color:#ffffff;
-    border:5px solid #000000;
-    padding:15px;
-    background-color:#000000;
-   
-}
-
-a.header-logo:active
-{
-    font-family:"glashou";
-    font-size:60px;
-    text-decoration:none;
-    color:#000000;
-    border:5px solid #000000;
-    padding:15px;
+    font-family:"cicle";
+    font-size:20px;
+    text-align:justify;
+    line-height:150%;
+    width:500px;
+    margin-left:100px;
 }
