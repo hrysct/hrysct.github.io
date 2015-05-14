@@ -1,0 +1,51 @@
+@font-face
+{
+    font-family:"boxcutter";
+    src: url("../fonts/boxcutter.ttf");
+}
+
+.topspace
+{
+    padding:10px;
+}
+
+.header
+{
+    text-align:center;
+}
+
+.firstname
+{
+    float:left;
+    display:inline-block;
+    position:relative;
+    left:270px;
+    height:205px;
+    line-height:155px;
+    font-family:"boxcutter";
+    font-size:40px;
+}
+
+.headerlogo
+{
+    width:400px;
+    height:auto;
+    float:both;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-block;
+}
+
+.lastname
+{
+    float:right;
+    display:inline-block;
+    position:relative;
+    right:270px;
+    height:205px;
+    line-height:155px;
+    font-family:"boxcutter";
+    font-size:40px;
+}
+
+
