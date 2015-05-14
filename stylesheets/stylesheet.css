@@ -6,7 +6,7 @@
 
 .topspace
 {
-    padding:10px;
+    padding:20px;
 }
 
 .header
@@ -20,15 +20,15 @@
     display:inline-block;
     position:relative;
     left:270px;
-    height:205px;
-    line-height:155px;
+    height:154px;
+    line-height:100px;
     font-family:"boxcutter";
     font-size:40px;
 }
 
 .headerlogo
 {
-    width:400px;
+    width:300px;
     height:auto;
     float:both;
     margin-left:auto;
@@ -42,8 +42,8 @@
     display:inline-block;
     position:relative;
     right:270px;
-    height:205px;
-    line-height:155px;
+    height:154px;
+    line-height:100px;
     font-family:"boxcutter";
     font-size:40px;
 }
