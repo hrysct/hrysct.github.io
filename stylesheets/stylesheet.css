@@ -4,6 +4,7 @@
     src: url("../fonts/boxcutter.ttf");
 }
 
+
 .topspace
 {
     padding:20px;
@@ -19,8 +20,8 @@
     float:left;
     display:inline-block;
     position:relative;
-    left:270px;
     height:154px;
+    right:-270px;
     line-height:100px;
     font-family:"boxcutter";
     font-size:40px;
@@ -41,7 +42,7 @@
     float:right;
     display:inline-block;
     position:relative;
-    right:270px;
+    left:-270px;
     height:154px;
     line-height:100px;
     font-family:"boxcutter";
