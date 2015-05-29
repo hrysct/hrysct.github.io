@@ -1,13 +1,13 @@
 @font-face
 {
-    font-family:"boxcutter";
-    src: url("../fonts/boxcutter.ttf");
+    font-family:"cooperblack";
+    src: url("../fonts/cooperblack.otf");
 }
 
 
 .topspace
 {
-    padding:20px;
+    padding:30px;
 }
 
 .header
@@ -15,38 +15,50 @@
     text-align:center;
 }
 
-.firstname
+
+a.headerlogo:link
 {
-    float:left;
-    display:inline-block;
-    position:relative;
-    height:154px;
-    right:-270px;
-    line-height:100px;
-    font-family:"boxcutter";
-    font-size:40px;
+    font-family:"cooperblack";
+    font-size:60px;
+    letter-spacing:-1px;
+    color:#000000;
+    text-decoration:none;
+    padding:10px;
 }
 
-.headerlogo
+a.headerlogo:visited
 {
-    width:300px;
-    height:auto;
-    float:both;
-    margin-left:auto;
-    margin-right:auto;
-    display:inline-block;
+    font-family:"cooperblack";
+    font-size:60px;
+    letter-spacing:-1px;
+    color:#000000;
+    text-decoration:none;
+    padding:10px;
 }
 
-.lastname
+a.headerlogo:hover
 {
-    float:right;
-    display:inline-block;
-    position:relative;
-    left:-270px;
-    height:154px;
-    line-height:100px;
-    font-family:"boxcutter";
-    font-size:40px;
+    font-family:"cooperblack";
+    font-size:60px;
+    letter-spacing:-1px;
+    color:#000000;
+    text-decoration:none;
+    background-color:#1edbd0;
+    padding:10px;
 }
+
+a.headerlogo:active
+{
+    font-family:"cooperblack";
+    font-size:60px;
+    letter-spacing:-1px;
+    color:#000000;
+    text-decoration:none;
+    background-color:#1edbd0;
+    padding:10px;
+}
+
+
+
 
 
