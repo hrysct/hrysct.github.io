@@ -4,6 +4,12 @@
     src: url("../fonts/cooperblack.otf");
 }
 
+@font-face
+{
+    font-family:"off";
+    src: url("../fonts/off.ttf");
+}
+
 
 .topspace
 {
@@ -23,7 +29,13 @@ a.headerlogo:link
     letter-spacing:-1px;
     color:#000000;
     text-decoration:none;
-    padding:10px;
+    padding:15px;
+    border: 5px solid #000000;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
 }
 
 a.headerlogo:visited
@@ -33,7 +45,13 @@ a.headerlogo:visited
     letter-spacing:-1px;
     color:#000000;
     text-decoration:none;
-    padding:10px;
+    padding:15px;
+    border: 5px solid #000000;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
 }
 
 a.headerlogo:hover
@@ -41,10 +59,16 @@ a.headerlogo:hover
     font-family:"cooperblack";
     font-size:60px;
     letter-spacing:-1px;
-    color:#000000;
+    color:#ffffff;
     text-decoration:none;
     background-color:#1edbd0;
-    padding:10px;
+    padding:15px;
+    border:5px solid #1edbd0;
+     -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
 }
 
 a.headerlogo:active
@@ -52,10 +76,16 @@ a.headerlogo:active
     font-family:"cooperblack";
     font-size:60px;
     letter-spacing:-1px;
-    color:#000000;
+    color:#ffffff;
     text-decoration:none;
     background-color:#1edbd0;
-    padding:10px;
+    padding:15px;
+    border:5px solid #1edbd0;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
 }
 
 
