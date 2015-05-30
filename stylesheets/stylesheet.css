@@ -25,6 +25,12 @@
     src: url("../fonts/moderne.ttf");
 }
 
+@font-face
+{
+    font-family:"sourceregular";
+    src: url("../fonts/sourceregular.ttf");
+}
+
 
 .topspace
 {
@@ -121,7 +127,7 @@ nav a
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size:20px;
-    font-family:"moderne";
+    font-family:"sourceregular";
 }
 
 nav a:hover,
