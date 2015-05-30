@@ -34,14 +34,14 @@
 .header
 {
     text-align:center;
-    padding:30px;
+    padding:20px;
 }
 
 
 a.headerlogo:link
 {
     font-family:"cooperblack";
-    font-size:50px;
+    font-size:45px;
     letter-spacing:-1px;
     color:#000000;
     text-decoration:none;
@@ -57,7 +57,7 @@ a.headerlogo:link
 a.headerlogo:visited
 {
     font-family:"cooperblack";
-    font-size:50px;
+    font-size:45px;
     letter-spacing:-1px;
     color:#000000;
     text-decoration:none;
@@ -73,7 +73,7 @@ a.headerlogo:visited
 a.headerlogo:hover
 {
     font-family:"cooperblack";
-    font-size:50px;
+    font-size:45px;
     letter-spacing:-1px;
     color:#ffffff;
     text-decoration:none;
@@ -90,7 +90,7 @@ a.headerlogo:hover
 a.headerlogo:active
 {
     font-family:"cooperblack";
-    font-size:50px;
+    font-size:45px;
     letter-spacing:-1px;
     color:#ffffff;
     text-decoration:none;
@@ -120,7 +120,7 @@ nav a
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-weight: 400;
-	font-size:25px;
+	font-size:20px;
     font-family:"moderne";
 }
 
