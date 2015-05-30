@@ -1,3 +1,12 @@
+*,
+*:after,
+*::before 
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 @font-face
 {
     font-family:"cooperblack";
@@ -10,27 +19,34 @@
     src: url("../fonts/off.ttf");
 }
 
+@font-face
+{
+    font-family:"moderne";
+    src: url("../fonts/moderne.ttf");
+}
+
 
 .topspace
 {
-    padding:30px;
+    padding:20px;
 }
 
 .header
 {
     text-align:center;
+    padding:30px;
 }
 
 
 a.headerlogo:link
 {
     font-family:"cooperblack";
-    font-size:60px;
+    font-size:50px;
     letter-spacing:-1px;
     color:#000000;
     text-decoration:none;
     padding:15px;
-    border: 5px solid #000000;
+    border: 4px solid #000000;
     -o-transition:.4s;
     -ms-transition:.4s;
     -moz-transition:.4s;
@@ -41,12 +57,12 @@ a.headerlogo:link
 a.headerlogo:visited
 {
     font-family:"cooperblack";
-    font-size:60px;
+    font-size:50px;
     letter-spacing:-1px;
     color:#000000;
     text-decoration:none;
     padding:15px;
-    border: 5px solid #000000;
+    border: 4px solid #000000;
     -o-transition:.4s;
     -ms-transition:.4s;
     -moz-transition:.4s;
@@ -57,13 +73,13 @@ a.headerlogo:visited
 a.headerlogo:hover
 {
     font-family:"cooperblack";
-    font-size:60px;
+    font-size:50px;
     letter-spacing:-1px;
     color:#ffffff;
     text-decoration:none;
     background-color:#1edbd0;
     padding:15px;
-    border:5px solid #1edbd0;
+    border:4px solid #1edbd0;
      -o-transition:.4s;
     -ms-transition:.4s;
     -moz-transition:.4s;
@@ -74,13 +90,13 @@ a.headerlogo:hover
 a.headerlogo:active
 {
     font-family:"cooperblack";
-    font-size:60px;
+    font-size:50px;
     letter-spacing:-1px;
     color:#ffffff;
     text-decoration:none;
     background-color:#1edbd0;
     padding:15px;
-    border:5px solid #1edbd0;
+    border:4px solid #1edbd0;
     -o-transition:.4s;
     -ms-transition:.4s;
     -moz-transition:.4s;
@@ -88,6 +104,100 @@ a.headerlogo:active
     transition:.4s;
 }
 
+.navsect
+{
+	text-align:center;
+    padding:40px;
+}
+
+nav a 
+{
+    position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size:25px;
+    font-family:"moderne";
+}
+
+nav a:hover,
+nav a:focus 
+{
+	outline: none;
+}
+
+.navlinks {
+	position: relative;
+	z-index: 1;
+}
+
+.navlinks a {
+	padding: 0 5px;
+	color: #acacac;
+	font-weight: 700;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.navlinks a::before,
+.navlinks a::after {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	height: 2px;
+	margin-top: -1px;
+	background: #acacac;
+	content: '';
+	z-index: -1;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	pointer-events: none;
+}
+
+.navlinks a::before {
+	-webkit-transform: translateY(-20px);
+	-moz-transform: translateY(-20px);
+	transform: translateY(-20px);
+}
+
+.navlinks a::after {
+	-webkit-transform: translateY(20px);
+	-moz-transform: translateY(20px);
+	transform: translateY(20px);
+}
+
+.navlinks a:hover,
+.navlinks a:focus {
+	color: #000000;
+}
+
+.navlinks a:hover::before,
+.navlinks a:hover::after,
+.navlinks a:focus::before,
+.navlinks a:focus::after {
+	opacity: 0.7;
+}
+
+.navlinks a:hover::before,
+.navlinks a:focus::before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.navlinks a:hover::after,
+.navlinks a:focus::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
 
 
 
