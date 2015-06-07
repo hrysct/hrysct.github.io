@@ -16,7 +16,7 @@
 @font-face
 {
     font-family:"close";
-    src: url("../fonts/close.otf");
+    src: url("../fonts/close.otf") format("opentype");
 }
 
 @font-face
