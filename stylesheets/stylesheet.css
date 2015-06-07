@@ -17,6 +17,8 @@
 {
     font-family:"close";
     src: url("../fonts/close.otf") format("opentype");
+    font-weight:normal;
+    font-style:normal;
 }
 
 @font-face
@@ -41,19 +43,6 @@
 {
     font-family:"not";
     src: url("../fonts/not.otf");
-}
-
-body {
-  -webkit-animation-duration: 0.1s;
-  -webkit-animation-name: fontfix;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 0.1s;
-}
-
-@-webkit-keyframes fontfix {
-  from { opacity: 1; }
-  to { opacity: 1; }
 }
 
 .topspace
