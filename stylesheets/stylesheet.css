@@ -43,15 +43,21 @@
     src: url("../fonts/not.otf");
 }
 
+@font-face
+{
+    font-family:"server";
+    src: url("../fonts/server.otf");
+}
+
 .topspace
 {
-    padding:6px;
+    padding:16px;
 }
 
 .header
 {
     text-align:center;
-    padding:20px;
+    padding:0px;
 }
 
 
@@ -61,7 +67,7 @@ a.headerlogo:link
     font-size:45px;
     color:#000000;
     text-decoration:none;
-    padding:15px;
+    padding:10px;
 }
 
 a.headerlogo:visited
@@ -70,7 +76,7 @@ a.headerlogo:visited
     font-size:45px;
     color:#000000;
     text-decoration:none;
-    padding:15px;
+    padding:10px;
 }
 
 a.headerlogo:hover
@@ -79,7 +85,7 @@ a.headerlogo:hover
     font-size:45px;
     color:#1edbd0;
     text-decoration:none;
-    padding:15px;
+    padding:10px;
 }
 
 a.headerlogo:active
@@ -88,13 +94,21 @@ a.headerlogo:active
     font-size:45px;
     color:#1edbd0;
     text-decoration:none;
-    padding:15px;
+    padding:10px;
+}
+
+h2
+{
+    text-align:center;
+    font-family:"server";
+    font-size:20px;
+    letter-spacing:2px;
 }
 
 .navsect
 {
 	text-align:center;
-    padding:20px;
+    padding:5px;
 }
 
 nav a 
@@ -107,7 +121,7 @@ nav a
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-weight: 400;
-	font-size:18px;
+	font-size:16px;
     font-family:"not";
 }
 
