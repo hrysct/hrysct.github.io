@@ -21,26 +21,8 @@
 
 @font-face
 {
-    font-family:"off";
-    src: url("../fonts/off.ttf");
-}
-
-@font-face
-{
     font-family:"moderne";
     src: url("../fonts/moderne.ttf");
-}
-
-@font-face
-{
-    font-family:"sourceregular";
-    src: url("../fonts/sourceregular.ttf");
-}
-
-@font-face
-{
-    font-family:"not";
-    src: url("../fonts/not.otf");
 }
 
 @font-face
@@ -49,9 +31,15 @@
     src: url("../fonts/server.otf");
 }
 
+@font-face
+{
+    font-family:"cour";
+    src: url("../fonts/cour.ttf");
+}
+
 .topspace
 {
-    padding:16px;
+    padding:10px;
 }
 
 .header
@@ -103,6 +91,7 @@ h2
     font-family:"server";
     font-size:20px;
     letter-spacing:2px;
+    color:#000000;
 }
 
 .navsect
@@ -122,7 +111,7 @@ nav a
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size:16px;
-    font-family:"not";
+    font-family:"cour";
 }
 
 nav a:hover,
@@ -199,6 +188,39 @@ nav a:focus
 	-moz-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
+
+.midspace
+{
+    padding:18px;
+}
+
+.content-container
+{
+    text-align:center;
+}
+.content-text
+{
+    width:650px;
+    height:auto;
+    display:inline-block;
+    text-align:left;
+    border: 3px solid #bfbfbf;
+    padding:25px;
+}
+
+h1
+{
+    font-family:"moderne";
+    font-size:30px;
+}
+
+p
+{
+    text-align:justify;
+    font-family:"server";
+    font-size:18px;
+}
+
 
 
 
