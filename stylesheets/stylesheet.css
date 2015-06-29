@@ -265,6 +265,20 @@ a.linkd:active
     transition:.5s cubic-bezier(.33,.66,.66,1);
 }
 
+.woes
+{
+    height:75px;
+    width:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h3
+{
+    text-align:center;
+    font-family:"glass";
+}
 
 
 
