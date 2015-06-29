@@ -211,32 +211,32 @@ nav a:focus
 h1
 {
     font-family:"moderne";
-    font-size:30px;
+    font-size:25px;
 }
 
 p
 {
     text-align:justify;
-    font-family:"server";
-    font-size:18px;
+    font-family:"cour";
+    font-size:14px;
 }
 
 a.linkd:link
 {
     text-align:justify;
-    font-family:"server";
-    font-size:18px;
+    font-family:"cour";
+    font-size:14px;
     text-decoration:none;
     color:black;
-    box-shadow: inset 0 -3px 0 #1edbd0;
+    box-shadow: inset 0 -2px 0 #1edbd0;
     transition:.5s cubic-bezier(.33,.66,.66,1);
 }
 
 a.linkd:visited
 {
     text-align:justify;
-    font-family:"server";
-    font-size:18px;
+    font-family:"cour";
+    font-size:14px;
     text-decoration:none;
     color:black;
     box-shadow: inset 0 -3px 0 #1edbd0;
@@ -246,8 +246,8 @@ a.linkd:visited
 a.linkd:hover
 {
     text-align:justify;
-    font-family:"server";
-    font-size:18px;
+    font-family:"cour";
+    font-size:14px;
     text-decoration:none;
     color:white;
     background-color:#1edbd0;
@@ -257,8 +257,8 @@ a.linkd:hover
 a.linkd:active
 {
     text-align:justify;
-    font-family:"server";
-    font-size:18px;
+    font-family:"cour";
+    font-size:14px;
     text-decoration:none;
     color:white;
     background-color:#1edbd0;
