@@ -37,6 +37,17 @@
     src: url("../fonts/cour.ttf");
 }
 
+body
+{
+background-color:#eee;
+}
+
+.bodybox
+{
+    background-color:#fff;
+    margin:50px;
+}
+
 .topspace
 {
     padding:10px;
@@ -110,7 +121,7 @@ nav a
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-weight: 400;
-	font-size:16px;
+	font-size:14px;
     font-family:"cour";
 }
 
@@ -200,7 +211,7 @@ nav a:focus
 }
 .content-text
 {
-    width:650px;
+    width:750px;
     height:auto;
     display:inline-block;
     text-align:left;
@@ -280,6 +291,10 @@ h3
     font-family:"glass";
 }
 
+.bottomspace
+{
+    padding:35px;
+}
 
 
 
