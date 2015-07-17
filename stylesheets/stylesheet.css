@@ -146,3 +146,115 @@ p
     line-height: 1.75;
     
 }
+
+.socialbutton
+{
+    text-align: center;
+}
+
+a.socialinsta:link
+{
+    font-family: "courier";
+    color: #3f729b;
+    text-decoration: none;
+    border: 2px solid #3f729b;
+    padding: 15px;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+a.socialinsta:visited
+{
+    font-family: "courier";
+    color: #3f729b;
+    text-decoration: none;
+    border: 2px solid #3f729b;
+    padding: 15px;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+a.socialinsta:hover
+{
+    font-family: "courier";
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #3f729b;
+    padding: 15px;
+    background-color: #3f729b;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+a.socialinsta:active
+{
+    font-family: "courier";
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #3f729b;
+    padding: 15px;
+    background-color: #3f729b;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+hr
+{
+    width: 75px;
+    height: 2px;
+    border: 0;
+    color: #cccccc;
+    background: #cccccc;
+}
+
+a.socialyoutube:link
+{
+    font-family: "courier";
+    color: #cd201f;
+    text-decoration: none;
+    border: 2px solid #cd201f;
+    padding: 15px;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+a.socialyoutube:visited
+{
+    font-family: "courier";
+    color: #cd201f;
+    text-decoration: none;
+    border: 2px solid #cd201f;
+    padding: 15px;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+a.socialyoutube:hover
+{
+    font-family: "courier";
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #cd201f;
+    padding: 15px;
+    background-color: #cd201f;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+a.socialyoutube:active
+{
+    font-family: "courier";
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #cd201f;
+    padding: 15px;
+    background-color: #cd201f;
+    border-radius: 1px;
+    transition: .25s ease-in-out;
+}
+
+.videocomment
+{
+    text-align: center;
+    padding: 14px;
+}
