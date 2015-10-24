@@ -12,51 +12,58 @@
     src: url("../fonts/server.otf");
 }
 
-
-.header
+.topspace
 {
-    padding:40px;
-    text-align:center;
+    padding:20px;
+}
+.headerbox
+{
+    width:200px;
+    height:auto;
+    display:block;
+    margin:0 auto;
 }
 
-a.headlogo:link
+
+.header a.headlogo:link
 {
-    font-family:"omm";
-    font-size:60px;
-    letter-spacing:3px;
-    color:#000000;
-    text-decoration:none;
+    padding:30px;
+    display:block;
+    margin:0 auto;
+    background-image: url("../images/assets/headlogoactive.png");
+    background-repeat:no-repeat;
 }
 
-a.headlogo:visited
+.header a.headlogo:visited
 {
-    font-family:"omm";
-    font-size:60px;
-    letter-spacing:3px;
-    color:#000000;
-    text-decoration:none;
+    padding:30px;
+    display:block;
+    margin:0 auto;
+    background-image: url("../images/assets/headlogoactive.png");
+    background-repeat:no-repeat;
 }
 
-a.headlogo:hover
+.header a.headlogo:hover
 {
-    font-family:"omm";
-    font-size:60px;
-    letter-spacing:3px;
-    color:#7b7b7b;
-    text-decoration:none;
+    padding:30px;
+    display:block;
+    margin:0 auto;
+    background-image: url("../images/assets/headlogohover.png");
+    background-repeat:no-repeat;
 }
 
 a.headlogo:active
 {
-    font-family:"omm";
-    font-size:60px;
-    letter-spacing:3px;
-    color:#7b7b7b;
-    text-decoration:none;
+    padding:30px;
+    display:block;
+    margin:0 auto;
+    background-image: url("../images/assets/headlogohover.png");
+    background-repeat:no-repeat;
 }
 
 h1
 {
     font-family:"server";
     text-align:center;
+    padding:20px;
 }
