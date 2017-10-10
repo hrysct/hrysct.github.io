@@ -2,14 +2,14 @@
 
 @font-face
 {
-    font-family:'omm';
-    src: url("../fonts/omm.otf");
+    font-family:'courier';
+    src: url("../fonts/courier.ttf");
 }
 
 @font-face
 {
-    font-family:'server';
-    src: url("../fonts/server.otf");
+    font-family:'helvetica';
+    src: url("../fonts/helvetica.otf");
 }
 
 .topspace
